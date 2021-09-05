@@ -2,7 +2,7 @@
 
 import random
 
-first_names = ["John", "Paul", "Michael", "George", "Sam", "Harry"]
+first_names = ["John", "Marcus", "Giacommo", "Gordon", "Samuel", "Marvy"]
 last_names = ["Jacobson", "Peterson", "Papadopolous", "Spineli", "Greenbaum"]
 titles = ["Mr.", "Mrs.", "Dr.", "H.M."]
 
@@ -12,6 +12,4 @@ fn = random.choice(first_names)
 ln = random.choice(last_names)
 tl = random.choice(titles)
 
-print(fn)
-print(ln)
-print(tl)
+print(tl + " " + fn + " " + ln)
